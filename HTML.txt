@@ -1,0 +1,24 @@
+Các thẻ HTML thông dụng 
+    1.	Các thẻ cơ bản
+    <html>: Thẻ gốc trong tệp dữ liệu và chứa tất cả các loại thẻ khác trong đoạn code
+    <base>: Chỉ định URL cơ sở cho tất cả các URL tương đối trong một tài liệu. Và chỉ có thể có một phần tử như vậy trong một tài liệu. 
+    <head>: Phần tử đầu tiên của thẻ <html> 
+    <style>: định dạng các phần tử của web như màu nền, màu viền...
+    <title>: tiêu đề của trang web
+    <meta>: dùng để cung cấp data cho trình duyệt
+    <link>:định nghĩa một trang web với liên kết ngoài web
+    <body>: sử dụng như phần tử thứ 2 của <html> 
+    <h1-h6>: định dạng các văn bản chữ
+    <hr>:chèn đường kẻ phân cách nằm ngang
+    <p>: văn bản
+    <br>: dùng để xuống hàng
+    <!- ->: chú thích
+    2.	Thẻ định dạng phần web
+    <header>/ <footer>: phần đầu và chân trang
+    <main>: thân của trang web
+    <div>: thùng chứa các phần tử khác
+    <dialog>: tạo một hội thoại, dùng cho các model hỗ trợ tương tác như thông báo, xác nhận dữ liệu 
+    <article>:  thể hiện thành phần độc lập của một tài liệu
+    <section>: phần độc lập chung không có thành phần ngữ nghĩa cụ thể. Các phần trong thẻ <section> thường phải có tiêu đề
+        ->Vậy <article>,<section>,<div> khác nhau ở chỗ nào?
+3.	
