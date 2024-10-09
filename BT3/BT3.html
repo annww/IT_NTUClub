@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h3> *denotes madotory </h3>
+    <div class="input_infor">
+        <p>Full name*: </p>
+        <input name="hoten" type="text" placeholder="FirstName">
+    </div>
+    <div class="input_infor">
+        <p>Email Address</p>
+        <input address="email" type="email" placeholder="EMAIL_ADDRESS">
+    </div>
+    <div>
+        <p>
+            Select Tour Package*:
+        </p>
+    </div>
+    <div>
+        <p>Arrival date*:</p>
+        <input type="datetime" name="date" placeholder="m/d/y">
+    </div>
+    <div>
+        <p>
+            Number of person*:
+        </p>
+        <input number="num" type="number" placeholder="UNKNOWN_TYPE">
+    </div>
+    <div>
+        <p>What you want to avail?*</p>
+        <div class="choose">
+            <p>
+                Boarding
+            </p>
+            <input type="checkbox" id="html" name="avail">
+        </div>
+        <div class="choose">
+            <p>
+                Fooding
+            </p>
+            <input type="checkbox" id="html" name="avail">
+        </div>
+        <div class="choose">
+            <p>
+                Sight seeing 
+            </p>
+            <input type="checkbox" id="html" name="avail">
+        </div>
+    </div>
+    <div>
+        <p>
+        Discount Coupon code
+        </p>
+        <input type="text" name="code" placeholder="UNKNOWN_TYPE">
+    </div>
+    <div class ="YN">
+        <p>Terms and conditions</p>
+        <form>
+            <input type="radio" id="html" name="agree" value=" I agree">
+            <label for="agree">I agree </label>
+            <input type="radio" id="html" name="disagree" value=" I disagree">
+            <label for="disagree">I disagree </label>
+        </form>
+    </div>
+    <div class="button">
+        <input type="button" name="complete" value="Complete reservation">
+    </div>
+</body>
+</html>

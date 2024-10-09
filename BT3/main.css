@@ -1,0 +1,7 @@
+#input_infor{
+    gap: 15px;
+}
+.choose{
+    display:flex;
+    align-items: center;
+}

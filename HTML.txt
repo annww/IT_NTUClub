@@ -21,4 +21,41 @@ Các thẻ HTML thông dụng
     <article>:  thể hiện thành phần độc lập của một tài liệu
     <section>: phần độc lập chung không có thành phần ngữ nghĩa cụ thể. Các phần trong thẻ <section> thường phải có tiêu đề
         ->Vậy <article>,<section>,<div> khác nhau ở chỗ nào?
-3.	
+    3.	Thẻ định dạng nội dung văn bản
+    <em>: nhấn mạnh văn bản quan trọng
+    <b>: định dạng chữ lớn
+    <strong>: có định dạng giống <b>, sử dụng khi đánh dấu văn bản ở mức độ quan trọng
+    <i>: định dạng nghiêng
+    <u>: định dạng chữ gạch chân dưới
+    <abbr>: định nghĩa từ viết tắt, hoặc tóm tắt nội dung một đoạn nội dung 
+    <blockquote>: tạo 1 trích dẫn từ website khác
+    <small>: định dạng kích thước nhỏ cho văn bản
+    <code>: định dạng văn bản ý nghĩa là câu lệnh
+    <pre>: khoảng cách, định dạng của văn bản sẽ được giữ nguyên
+    <q>: tạo câu trích dẫn
+    <sub>: định dạng các văn bản nằm ở nửa dưới văn bản thông thường
+    <sup>: định dạng văn bản có giá trị mũ, lũy thừa
+    <time>: dành cho những đoạn văn bản có giá trị ngày tháng, năm
+    <wbr>: gần giống nhau <br>
+    <bdo>: đảo ngược văn bản
+    4.	Thẻ định dạng bảng
+    <table>: xác định dữ liệu bảng
+    <caption>: xác định chú thích, tiêu đề 
+    <colgroup>: xác định nhóm, cột trong bảng
+    <col>: xác định thuộc tính cho cột
+    <thead>: nội dung tiêu đề của bảng
+    <tbody>: xác định nội dung chính của bảng
+    <tfoot>: xác định nội dung mang tính tổng kết, tính tổng, thành tiền,...
+    <tr>: xác định hàng trong bảng
+    <td>: một ô trong bảng dữ liệu của <tr>
+    <th>: phần tử con của <tr> xác định tiêu đề của một nhóm ô trong bảng
+    5.	Thẻ định danh sách
+    <ol>: xác định các loại danh sách có thứ tự rõ ràng
+    <ul>: xác định các loại danh sách không có thứ tự
+    <li>: định dạng thông tin danh sách (list), phần tử con <ol> <ul>
+    6.	Thẻ định đa phương tiện
+    <area>: xác định một bảng đồ ảnh,  cho phép hình ảnh bên trong có thể chèn liên kết
+    <audio>: tạo một đoạn âm thanh hoặc trình phát nhạc vào web
+    <img>: chèn hình ảnh
+    <map>: được dùng với <area> để xác định bản đồ ảnh  
+    <source>: xác định nguồn tài nguyên 
