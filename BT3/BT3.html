@@ -19,12 +19,18 @@
         <p>Email Address</p>
         <input address="email" type="email" placeholder="EMAIL_ADDRESS">
     </div>
-    <div>
+
+    <div class="dropdown">
         <p>
             Select Tour Package*:
         </p>
-    </div>
-    <div>
+        <div class="select">
+            <span class="selected">
+                Goa
+            </span>
+            <div class="caret"></div>
+        </div>
+        <div>
         <p>Arrival date*:</p>
         <input type="datetime" name="date" placeholder="m/d/y">
     </div>
@@ -69,7 +75,7 @@
             <input type="radio" id="html" name="disagree" value=" I disagree">
             <label for="disagree">I disagree </label>
         </form>
-    </div>
+    </div>  
     <div class="button">
         <input type="button" name="complete" value="Complete reservation">
     </div>
